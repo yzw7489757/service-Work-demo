@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.4;
+  background: #ECECEC;
+  color: #333;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button.custom {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  overflow: visible;
+  vertical-align: middle;
+  font-size: inherit;
+  width: auto;
+}
+
+button.custom::-moz-focus-inner { 
+  border: 0;
+  padding: 0;
+}

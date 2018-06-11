@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}Trained To Thrill{% endblock %}
+
+{% block body %}
+  <header class="site-header">
+    <img class="logo" src="static/imgs/logo.svg" alt="Trained To Thrill">
+    <div class="container">
+      <div class="inner">
+        <button class="custom refresh loading">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <circle cx="50" r="40" cy="50"/>
+            <path d="M99.7.658v43.5h-44.4z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <div class="msg-container">
+    <div class="msg"></div>
+  </div>
+  <div class="photos"></div>
+{% endblock %}
